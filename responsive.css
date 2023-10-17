@@ -1,0 +1,265 @@
+@media screen and (max-width:1280px){
+      .sidebar-2,
+      .sidebar-3,
+      .sidebar-4,
+      .sidebar-5,
+      .sidebar-6,
+      .sidebar-7{
+         display: none;    
+      }   
+
+      .sideBar{
+        max-width: 100px;
+      }
+
+      .sidebar-1 .sidebar-item1{
+          margin-right: 0;
+          margin-left: 0;  
+          padding: 2px 10px;
+          font-size: 10px;
+          gap: 0;
+      }
+
+
+      .sidebar-item1{
+         flex-direction: column;
+         justify-content: center;
+         margin-bottom: 3px;
+        
+     }
+         
+      .icon-sidebar{
+        font-size: 25px;
+      }
+
+      .sidebar-1{
+        border: none;
+        margin-left: 0;
+      }
+
+
+      /* ASSUNTOS */
+      .container-assunto{
+        width: calc(100vw - 100px); 
+        margin-left: 80px;
+        justify-content: none;
+        gap: 0;
+        margin-top: 60px;
+     
+      
+    
+      }
+
+
+      .assunto{
+         padding: 5px 10px;
+         font-size: 15px;
+          
+      }
+
+    
+
+      
+      /* VIDEOS DO YOUTUBE */
+      .main{
+        width: calc(100vw - 100px);
+        margin-left: 90px;
+        padding: 0 10px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+      }
+
+      .container-article{
+          max-width: 340px;
+    
+      }
+
+      .video-img{
+        height: 13em;
+      }
+
+      .video-title{
+        font-size: 18px;
+      }
+
+      .canal-info{
+         font-size: 14px;
+      }
+           
+}
+
+@media screen and (max-width:1154px){
+     /* HEADER */
+     .menu-start{
+        margin-left: 10px;
+     }
+     .menu-start .icon-menu{
+        font-size: 20px;
+        padding: 8px;      
+    }
+
+    .menu-start-content{
+        margin-left: 15px;   
+    }
+
+    .menu-start-content svg{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .menu-start-content p{
+        font-size: 18px;
+    
+    }
+
+    .menu-midlle input{
+        padding: 8px 15px;
+        width: 20em;
+    }
+
+    .menu-midlle .icon-search{
+        padding: 11px 20px;
+        font-size: 20px;
+    }
+
+    .menu-end .icon-end{
+        font-size: 20px;
+    }
+
+    .a0,.a1{
+      display: none;  
+    }
+
+   
+}  
+
+@media screen and (max-width:927px){
+    .a0,.a1,.a2{
+        display: none;
+    }
+
+    .container-assunto{
+        gap: 5px;
+    }
+
+    .main{
+        width: calc(100vw - 100px);
+        margin-left: 90px;
+        padding: 0 10px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+      }
+
+      .container-article{
+          max-width: 330px;
+    
+      }
+
+      .video-img{
+        height: 11em;
+      }
+
+     .menu-end{
+       gap: 10px;
+       margin-left: 4px;
+   
+     }
+
+     .menu-end .icon-end{
+        font-size: 15px;   
+     }
+
+     .menu-midlle .icon-phone{
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    .menu-conta{
+        font-size: 10px;
+    }
+
+    .menu-midlle input{
+        padding: 5px 10px;
+         width: 10em;
+    }
+
+    .menu-midlle .icon-search{
+        padding: 9px 20px;
+        font-size: 20px;
+    }
+
+    .menu-end .icon-end{
+        font-size: 18px;
+    }
+
+    .container-assunto{
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width:740px){
+    .container-assunto{
+        display: grid;
+        grid-template-columns: minmax(100px,300px);
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .assunto{
+        font-size: 12px;
+        padding: 2px 4px;
+    
+    }
+
+
+    .sideBar{
+        max-width: 60px;
+      }
+
+      .wrapper-assunto{
+        max-height: 25px;
+      }
+
+      .main{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+        margin-left: 55px;
+      }
+
+      .video-img{
+        height: 9em;
+      }
+
+     .menu-start .icon-menu{
+        display: none;   
+    }
+
+    .menu-start-content{
+        margin-left: 5px;   
+    }
+
+    .menu-start-content svg{
+        width: 20px;
+        height: 20px;
+    
+    }
+    .menu-start-content p,sup{
+        font-size: 15px;
+    
+    }
+
+    .menu-end{
+        gap: 10px;
+        margin-left: 4px;
+    
+    }
+ 
+      
+    .menu-midlle {
+        display: none;
+    }
+ 
+    .menu-end .icon-end{
+         font-size: 15px;
+    }
+ 
+}
